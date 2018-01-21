@@ -4,7 +4,7 @@ with(oHuman){
 	start_y = ystart;
 	origin_x = x;
 	origin_y = y;
-	stimulated = has_been_stimulated
+	stimulated = has_been_stimulated;
 }
 
 var dist = point_distance(start_x, start_y, origin_x, origin_y);

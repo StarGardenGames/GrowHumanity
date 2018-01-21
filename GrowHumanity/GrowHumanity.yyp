@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1e6cf12e-7242-4835-b84a-c6d910138b71",
+            "Value": {
+                "id": "8398a235-e8e3-4ec0-9e26-5ecd6dc0df28",
+                "resourcePath": "scripts\\eventWater\\eventWater.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1f2df18d-7921-474a-bb9b-ef5149155481",
             "Value": {
                 "id": "afbddf8e-ddc1-4b0d-bd82-4c1fcad3ccab",
@@ -151,14 +159,6 @@
             }
         },
         {
-            "Key": "3938bba3-b175-4bb5-ae4e-7c3ff50bc121",
-            "Value": {
-                "id": "14be14a8-5e5d-48f9-a51a-b59733b272e9",
-                "resourcePath": "scripts\\eventPlaceHolder\\eventPlaceHolder.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "3b7c3a5b-a8f4-4859-bd34-c0cc438a93b7",
             "Value": {
                 "id": "b6412bc9-1e6c-408b-9539-3e5c3a55a266",
@@ -180,6 +180,14 @@
                 "id": "f101e699-22fd-42e1-b79e-94e7bee21264",
                 "resourcePath": "views\\47ba04ad-fa34-43d4-8401-a88f6b757d3a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "48306e28-56c8-40c5-b735-5fa395c055da",
+            "Value": {
+                "id": "065bdc24-988b-487f-a40d-79c0f20e9892",
+                "resourcePath": "objects\\oSpawnable\\oSpawnable.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -441,7 +449,7 @@
         "87368ab1-4992-4fa5-b952-7abaf7f0eadf",
         "96427ecc-9868-4f8e-9b67-de1e6fcb3f0b",
         "4b4c9284-4357-4162-90b3-227475879afa",
-        "3938bba3-b175-4bb5-ae4e-7c3ff50bc121",
+        "1e6cf12e-7242-4835-b84a-c6d910138b71",
         "74801ce4-7f9a-4c83-be16-905e47e8e7dd",
         "5c4d2274-1dbe-44a0-8b60-dc53ac00733b"
     ],

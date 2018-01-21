@@ -1,8 +1,8 @@
 {
-    "id": "3938bba3-b175-4bb5-ae4e-7c3ff50bc121",
+    "id": "1e6cf12e-7242-4835-b84a-c6d910138b71",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "eventPlaceHolder",
+    "name": "eventWater",
     "IsCompatibility": false,
     "IsDnD": false
 }

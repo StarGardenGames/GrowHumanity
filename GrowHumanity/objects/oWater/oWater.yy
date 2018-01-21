@@ -4,20 +4,11 @@
     "mvc": "1.0",
     "name": "oWater",
     "eventList": [
-        {
-            "id": "c43deb63-7b25-47cb-b029-0d55964795e3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "3204b5c4-4adf-467a-a94a-cb9c4b192978"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "48306e28-56c8-40c5-b735-5fa395c055da",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

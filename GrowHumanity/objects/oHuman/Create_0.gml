@@ -1,5 +1,5 @@
 /// @description Initialize Variables
-image_alpha = 0;
+event_inherited();
 
 free_blocks = 5;
 role_blocks = 0;
@@ -28,8 +28,6 @@ stimulation_max_width = 5;
 stimulation_angle = 0;
 
 body_radius = 10;
-
-spawn_speed = 1 / (room_speed * 3);
 
 has_been_stimulated = false;
 

@@ -1,7 +1,9 @@
 events = [
 	eventInitialHuman,
 	eventMoreHumans,
-	eventPlaceHolder
-]
+	eventWater
+];
 
 event_index = 0;
+
+timer = 0;
