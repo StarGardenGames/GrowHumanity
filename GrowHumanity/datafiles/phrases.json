@@ -1,0 +1,19 @@
+{
+	"water": [
+		"So thirsty...",
+		"I need water",
+		"This area is too dry",
+		"I feel parched"
+	],
+	"food": [
+		"I'm starving",
+		"I don't see any food",
+		"I don't have enough energy",
+		"Where's food?",
+		"Soo hungry..."
+	],
+	"shelter": [
+		"the sun is burning",
+		"there's no place to sleep"
+	]
+}
