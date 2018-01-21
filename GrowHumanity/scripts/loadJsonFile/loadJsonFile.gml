@@ -8,7 +8,6 @@ while(!file_text_eof(file)){
 }
 
 var output = json_decode(str);
-print(ds_exists(output, ds_type_map))
 
 if(output == -1){
 	throwError(str, "could not be decoded");

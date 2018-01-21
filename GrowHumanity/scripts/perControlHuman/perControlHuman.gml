@@ -1,25 +1,31 @@
+if(!instance_exists(oHuman)) exit;
 //select human
-var human = instance_nearest(mouse_x, mouse_y, oHuman);	
-var dist = point_distance(human.x, human.y, mouse_x, mouse_y);
-if(dist < selection_thresh){
-	selected_human = human;
+if(!mouse_check_button(mb_left)){
+	var human = instance_nearest(mouse_x, mouse_y, oHuman);	
+	var dist = point_distance(human.x, human.y, mouse_x, mouse_y);
+	if(dist < selection_thresh){
+		selected_human = human;
+	}else{
+		selected_human = noone;
+	}
+}
+
+if(selected_human != noone){
+	//initial stimulation
+	if(mouse_check_button_pressed(mb_left)){
+		selected_human.stimulation = selected_human.stimulation_max;
+		selected_human.has_been_stimulated = true;
+		
+		if(selected_human.stimulation_max != 0){
+			var angle = point_direction(selected_human.x, selected_human.y, mouse_x, mouse_y);
+			selected_human.angle = angle;
+			selected_human.target_angle = angle;
+		}
+	}
 	
 	//constant following
 	if(mouse_check_button(mb_left)){
-		var angle = point_direction(human.x, human.y, mouse_x, mouse_y);
-		human.stimulation_angle = angle;
-		
+		var angle = point_direction(selected_human.x, selected_human.y, mouse_x, mouse_y);
+		selected_human.stimulation_angle = angle;
 	}
-
-	//initial stimulation
-	if(mouse_check_button_pressed(mb_left)){
-		human.stimulation = human.stimulation_max;
-		
-		var angle = point_direction(human.x, human.y, mouse_x, mouse_y);
-		human.angle = angle;
-		human.target_angle = angle;
-	}
-}else{
-	selected_human = noone;
 }
-
