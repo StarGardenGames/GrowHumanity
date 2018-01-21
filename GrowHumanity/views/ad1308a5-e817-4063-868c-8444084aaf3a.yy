@@ -6,10 +6,12 @@
     "children": [
         "8ae1de1b-1580-4c60-9df7-d455f5d6e875",
         "76b49180-846f-48be-94b6-0270139db6e5",
-        "87368ab1-4992-4fa5-b952-7abaf7f0eadf"
+        "87368ab1-4992-4fa5-b952-7abaf7f0eadf",
+        "b3ad1c6e-3e45-40be-b930-23eb678572ef",
+        "6faad2f1-e4cd-4b33-9e58-cc5d1bba728d"
     ],
     "filterType": "GMScript",
-    "folderName": "static",
+    "folderName": "Static",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

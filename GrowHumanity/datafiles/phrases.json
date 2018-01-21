@@ -15,5 +15,18 @@
 	"shelter": [
 		"the sun is burning",
 		"there's no place to sleep"
+	],
+	"helpless": [
+		"It's impossible, no point in trying",
+		"There's nothing I can do",
+		"I'm going to die"
+	],
+	"skeptical": [
+		"Is this really all there is? I'm not sure"
+	],
+	"confident": [
+		"I know the answer must be somewhere",
+		"I just need to find it",
+		"There's no way this is the end"
 	]
 }
