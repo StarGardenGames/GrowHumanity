@@ -14,12 +14,17 @@ thought_visible = false;
 thought_timer = 0;
 
 sp_max = 4;
-angle = 0;
+target_angle = random(360);
+dtarget_angle = 0;
+angle_jitter = 4;
+angle = random(360);
+rot_speed = 3;
 
 stimulation_max = 1;
 stimulation = 0;
 stimulation_decel = .05;
 stimulation_max_width = 5;
+stimulation_angle = 0;
 
 body_radius = 10;
 
