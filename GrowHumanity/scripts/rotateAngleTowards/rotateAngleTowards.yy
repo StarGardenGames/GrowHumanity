@@ -1,8 +1,8 @@
 {
-    "id": "0d816c82-7070-4b7b-84a9-356118b4bef4",
+    "id": "20abdd83-330b-49e7-874f-5df10f1a6923",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "humanMove",
+    "name": "rotateAngleTowards",
     "IsCompatibility": false,
     "IsDnD": false
 }

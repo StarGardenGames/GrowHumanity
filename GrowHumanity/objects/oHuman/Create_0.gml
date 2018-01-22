@@ -3,6 +3,8 @@ event_inherited();
 
 fadeSpawnInit();
 
+state = HUMAN_STATE.wandering;
+
 my_emotion = noone;
 
 need_index = 0;
@@ -32,13 +34,18 @@ stimulation_decel = .02;
 stimulation_max_width = 5;
 stimulation_angle = 0;
 
-body_radius = 10;
-
 has_been_stimulated = false;
 
-//temp_emo_type = EMOTION.excited;
+memory = ds_map_create();
 
+lead_informant = noone;
+informant_depth = 0;
+info_key_to_udpate = "";
+informed_set = -1;
 
+pathing_goal = noone;
 
+body_radius = 10;
+conversational_space = 48;
 
 

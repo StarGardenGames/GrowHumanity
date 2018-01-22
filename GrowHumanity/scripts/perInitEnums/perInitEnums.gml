@@ -23,3 +23,17 @@ enum EMOTION_PHASE{
 	fading,
 	destroy
 }
+
+enum HUMAN_STATE{
+	wandering,
+	pathing,
+	informing,
+	listening
+}
+
+enum EDGE_ROW{
+	a,
+	b,
+	weight,
+	total
+}
