@@ -31,10 +31,34 @@
     },
     "resources": [
         {
+            "Key": "0006f9c1-dfe4-4f1d-b247-c1ba3979e95b",
+            "Value": {
+                "id": "43448cae-3e35-4047-9c20-f6ea4c3f4d46",
+                "resourcePath": "scripts\\emotionInit\\emotionInit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "04913848-31e7-4a82-b6ee-acf932b60f2d",
             "Value": {
                 "id": "fa8d2491-6938-4315-8ab2-b81f20fd308a",
                 "resourcePath": "views\\04913848-31e7-4a82-b6ee-acf932b60f2d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "049e0790-9e97-4fe0-847d-86cc4f9e53af",
+            "Value": {
+                "id": "450babdc-98ca-439a-a2a2-cb3f1be697dd",
+                "resourcePath": "scripts\\fadeSpawnUpdate\\fadeSpawnUpdate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "07d66794-bddb-44c1-aa7c-2cbc52995d3e",
+            "Value": {
+                "id": "33626c72-f66b-43e7-a6fe-1e698f85d419",
+                "resourcePath": "views\\07d66794-bddb-44c1-aa7c-2cbc52995d3e.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -60,6 +84,14 @@
                 "id": "af6c474c-be4c-4bad-88be-7ae77874c4b0",
                 "resourcePath": "datafiles_yy\\needs.json.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "13e58ffb-30ee-472e-83af-26171dda9e20",
+            "Value": {
+                "id": "390cd939-0f4b-4fba-a668-00fb55460028",
+                "resourcePath": "sprites\\sEvent\\sEvent.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -191,6 +223,14 @@
             }
         },
         {
+            "Key": "371cab1c-e25a-4796-84ee-d1fc1fda868b",
+            "Value": {
+                "id": "c328d594-5116-4763-adcc-da737cfa1f6f",
+                "resourcePath": "scripts\\humanEmitEmotion\\humanEmitEmotion.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3b7c3a5b-a8f4-4859-bd34-c0cc438a93b7",
             "Value": {
                 "id": "b6412bc9-1e6c-408b-9539-3e5c3a55a266",
@@ -218,7 +258,7 @@
             "Key": "48306e28-56c8-40c5-b735-5fa395c055da",
             "Value": {
                 "id": "065bdc24-988b-487f-a40d-79c0f20e9892",
-                "resourcePath": "objects\\oSpawnable\\oSpawnable.yy",
+                "resourcePath": "objects\\oGameObject\\oGameObject.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -236,6 +276,14 @@
                 "id": "5323ee9a-4352-4088-afa8-7813546653d9",
                 "resourcePath": "views\\4bfe7c63-6793-46c2-bb90-44d9b7b75eee.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5a084d4c-2434-4a70-b7f7-709597b7ff2f",
+            "Value": {
+                "id": "4941968a-3199-48a5-859b-d529d5ca1b87",
+                "resourcePath": "sprites\\sGameObject\\sGameObject.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -383,10 +431,34 @@
             }
         },
         {
+            "Key": "9bda0402-8d55-4b80-aa17-073feef7a622",
+            "Value": {
+                "id": "7f8d99a3-14b4-4cb2-b9ce-9bbc82ccd03d",
+                "resourcePath": "scripts\\emotionUpdatePhase\\emotionUpdatePhase.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9c8a1da4-f7f9-4ec5-9d98-e7493d44926f",
+            "Value": {
+                "id": "09b5b5e3-1347-459a-b4f8-8263b3338aec",
+                "resourcePath": "views\\9c8a1da4-f7f9-4ec5-9d98-e7493d44926f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9d5702c6-82a8-45cb-8561-67797c51dc51",
             "Value": {
                 "id": "0afc9b77-220a-4340-804f-a6560177a7bb",
                 "resourcePath": "views\\9d5702c6-82a8-45cb-8561-67797c51dc51.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9f61771f-824f-45ca-a945-172d32897718",
+            "Value": {
+                "id": "19db57da-d9b3-49b4-8572-28074610c95f",
+                "resourcePath": "views\\9f61771f-824f-45ca-a945-172d32897718.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -404,6 +476,14 @@
                 "id": "b1cb34bf-a007-4b06-a9f1-e1efd7b4df8a",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a1e302dc-a697-4252-86b0-41890ac80add",
+            "Value": {
+                "id": "c9efd0df-a8ba-47e3-9584-02c4129ab59f",
+                "resourcePath": "objects\\oEmotion\\oEmotion.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -459,6 +539,22 @@
             "Value": {
                 "id": "814d2ceb-ef97-4505-acde-c2242fcb05c6",
                 "resourcePath": "scripts\\circleArraySet\\circleArraySet.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c81f32e3-b47f-45f6-adef-74437fb9f0c2",
+            "Value": {
+                "id": "777272ff-a77b-4b41-bad3-7294d504c4ad",
+                "resourcePath": "sprites\\sEmotion\\sEmotion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c9c3a762-23c4-42a3-ad92-8e95b9b01b25",
+            "Value": {
+                "id": "bf42cdff-0c9d-4efd-a47c-ee6e0afaadb3",
+                "resourcePath": "scripts\\fadeSpawnInit\\fadeSpawnInit.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -535,6 +631,14 @@
             }
         },
         {
+            "Key": "f774dd8a-0d4e-4d06-9aa9-2dfd61d6ef01",
+            "Value": {
+                "id": "7090aab7-64e0-47b5-9d1d-5a3f6edd0f12",
+                "resourcePath": "sprites\\sView\\sView.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f87d4e59-9ba3-45e9-9da8-10156beaf401",
             "Value": {
                 "id": "407f7196-324d-4d39-acf7-52af4c88a444",
@@ -558,6 +662,7 @@
         "962e69ed-504a-4600-9b8e-bb431dfbe736",
         "62dfeb0b-550f-4f95-b7b2-1647dfa8cd59",
         "0d816c82-7070-4b7b-84a9-356118b4bef4",
+        "371cab1c-e25a-4796-84ee-d1fc1fda868b",
         "96427ecc-9868-4f8e-9b67-de1e6fcb3f0b",
         "4b4c9284-4357-4162-90b3-227475879afa",
         "1e6cf12e-7242-4835-b84a-c6d910138b71",
@@ -571,7 +676,11 @@
         "fe1fcc64-48f7-4b46-be71-9b72fdeabab3",
         "bbc3b679-2d67-451b-82b0-c8214ecff642",
         "09f55400-3186-48f4-81c8-8e2195841936",
-        "2916e697-2298-406e-b1db-ce1285809d8b"
+        "2916e697-2298-406e-b1db-ce1285809d8b",
+        "9bda0402-8d55-4b80-aa17-073feef7a622",
+        "0006f9c1-dfe4-4f1d-b247-c1ba3979e95b",
+        "c9c3a762-23c4-42a3-ad92-8e95b9b01b25",
+        "049e0790-9e97-4fe0-847d-86cc4f9e53af"
     ],
     "tutorial": ""
 }

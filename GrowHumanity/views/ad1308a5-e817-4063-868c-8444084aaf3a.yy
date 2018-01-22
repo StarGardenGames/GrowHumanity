@@ -11,7 +11,7 @@
         "6faad2f1-e4cd-4b33-9e58-cc5d1bba728d"
     ],
     "filterType": "GMScript",
-    "folderName": "Static",
+    "folderName": "APLib",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

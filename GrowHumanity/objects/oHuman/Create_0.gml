@@ -1,19 +1,23 @@
 /// @description Initialize Variables
 event_inherited();
 
+fadeSpawnInit();
+
+my_emotion = noone;
+
 need_index = 0;
 
 thought_history_length = 5
 thought_history = circleArrayInit(thought_history_length);
 thought = "";
+thought_type = 0;
 thought_alpha = 0;
 thought_on_time = 90;
 thought_off_time = 120;
 thought_visible = false;
 thought_timer = random(90);
-thought_quotas[THOUGHT_TYPE.need] = 4;
-thought_quotas[THOUGHT_TYPE.mood] = 3;
-
+thought_quotas[THOUGHT.need] = 4;
+thought_quotas[THOUGHT.mood] = 3;
 
 sp_max = 4;
 target_angle = random(360);
@@ -32,6 +36,7 @@ body_radius = 10;
 
 has_been_stimulated = false;
 
+//temp_emo_type = EMOTION.excited;
 
 
 
