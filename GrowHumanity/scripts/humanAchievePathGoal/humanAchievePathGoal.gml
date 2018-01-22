@@ -1,8 +1,10 @@
-if(info_key_to_update != ""){
+switch(path_goal){
+case PATH_GOAL.inform:
 	humanEnterState(HUMAN_STATE.informing);
-	with(pathing_goal){
+	with(path_goal_object){
 		humanEnterState(HUMAN_STATE.listening);
 	}
-}else{
-	humanEnterState(HUMAN_STATE.wandering);
+	break;
+default:
+	humanEvaluatePriorities();
 }

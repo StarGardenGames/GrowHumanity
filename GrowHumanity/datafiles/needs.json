@@ -1,5 +1,14 @@
 [
-	"water",
-	"food",
-	"shelter"
+	{
+		"name": "water",
+		"refresh_steps": 600
+	},
+	{
+		"name": "food",
+		"refresh_steps": 1800
+	},
+	{
+		"name": "shelter",
+		"refresh_steps": 2500
+	}
 ]

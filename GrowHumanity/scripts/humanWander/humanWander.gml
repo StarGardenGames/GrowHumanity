@@ -25,3 +25,7 @@ angle = rotateAngleTowards(angle, target_angle, rot_speed);
 //update speeds
 human_dx = lengthdir_x(.25*sp_max, angle);
 human_dy = lengthdir_y(.25*sp_max, angle);
+
+if(state_timer < 0){
+	humanEvaluatePriorities();	
+}

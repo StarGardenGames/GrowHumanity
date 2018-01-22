@@ -1,8 +1,8 @@
 {
-    "id": "0d816c82-7070-4b7b-84a9-356118b4bef4",
+    "id": "228c747d-b07f-4b48-9b40-ae03ae2ddb8a",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "humanUpdateAction",
+    "name": "humanEvaluatePriorities",
     "IsCompatibility": false,
     "IsDnD": false
 }

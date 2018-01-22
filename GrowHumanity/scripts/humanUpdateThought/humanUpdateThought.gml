@@ -5,8 +5,7 @@ if(instance_exists(my_emotion)){
 if(thought_timer < 0){
 	thought_visible = !thought_visible;
 	if(thought_visible){
-		thought = humanPickThought();
-		thought_timer = thought_on_time;	
+		humanPickThought();
 	}else{
 		var is_sad_thought = thought_type == THOUGHT.need || thought == "helpless";
 		if(is_sad_thought && irandom(5) == 1){

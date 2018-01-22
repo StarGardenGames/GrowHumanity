@@ -4,6 +4,7 @@ event_inherited();
 fadeSpawnInit();
 
 state = HUMAN_STATE.wandering;
+state_timer = 0; 
 
 my_emotion = noone;
 
@@ -43,9 +44,12 @@ informant_depth = 0;
 info_key_to_udpate = "";
 informed_set = -1;
 
-pathing_goal = noone;
+path_goal_object = noone;
+path_goal = noone;
 
 body_radius = 10;
 conversational_space = 48;
+
+
 
 

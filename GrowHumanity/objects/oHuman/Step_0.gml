@@ -4,6 +4,8 @@ fadeSpawnUpdate();
 
 humanUpdateThought();
 
-humanUpdateAction();
+humanUpdateState();
+
+humanApplyMovement();
 
 stimulation = max(stimulation - stimulation_decel, 0);

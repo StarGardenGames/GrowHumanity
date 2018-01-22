@@ -14,9 +14,9 @@ with(oHuman){
 //go to human if I found one, else wander
 if(instance_exists(target_human)){
 	lead_informant.informed_set[? target_human] = true;
-	humanStartPathToObject(target_human);	
+	humanStartPathToObject(target_human, PATH_GOAL.inform);	
 }else{
 	info_key_to_update = "";
-	humanEnterState(HUMAN_STATE.wandering);
+	humanEvaluatePriorities();
 }
 

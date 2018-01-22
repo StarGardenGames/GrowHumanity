@@ -1,8 +1,11 @@
 /// @description Load phrases
 
-depth = -1
+depth = -1;
+
+perInitEnums();
 
 needs = loadJsonFile("needs.json");
+needs = needs[? "default"];
 phrases = loadJsonFile("phrases.json");
 
 selected_human = noone;
@@ -16,3 +19,5 @@ depth_order = [
 	oEmotion,
 	oWater
 ];
+
+game_time = 0;

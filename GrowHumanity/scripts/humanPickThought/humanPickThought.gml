@@ -12,7 +12,8 @@ var next_type = chooseWeighted(thought_weights);
 var subject;
 switch(next_type){
 case THOUGHT.need:
-	subject = oPersistent.needs[| need_index];
+	var cur_need = oPersistent.needs[| need_index];
+	subject = cur_need[? "name"];
 	break;
 case THOUGHT.mood:
 	if(stimulation_max == 0){ subject = "helpless"; break; }
@@ -22,7 +23,4 @@ case THOUGHT.mood:
 	break;
 }
 
-
-var phrase_options = oPersistent.phrases[? subject];
-var index = irandom(ds_list_size(phrase_options)-1);
-return phrase_options[| index];
+humanSetThoughtWithSubject(subject);

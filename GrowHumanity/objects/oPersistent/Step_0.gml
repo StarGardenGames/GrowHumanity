@@ -3,4 +3,4 @@
 
 perControlHuman();
 
-perInitEnums();
+game_time++;

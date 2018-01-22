@@ -10,7 +10,7 @@ case HUMAN_STATE.informing:
 		var key = info_key_to_update;
 		var val = memory[? info_key_to_update];
 		var lead = lead_informant;
-		with(pathing_goal){
+		with(path_goal_object){
 			humanGetInformed(key, val, lead);
 		}
 		humanPickHumanToInform();
@@ -24,9 +24,4 @@ case HUMAN_STATE.listening:
 	break;
 }
 
-var sp = stimulation * sp_max;
-var stimulation_dx = lengthdir_x(sp, stimulation_angle);
-var stimulation_dy = lengthdir_y(sp, stimulation_angle);
-
-x += lerp(human_dx, stimulation_dx, stimulation);
-y += lerp(human_dy, stimulation_dy, stimulation);
+state_timer--;

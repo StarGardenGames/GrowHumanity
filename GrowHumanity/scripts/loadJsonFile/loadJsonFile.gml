@@ -8,7 +8,6 @@ while(!file_text_eof(file)){
 }
 
 var output = json_decode(str);
-
 if(output == -1){
 	throwError(str, "could not be decoded");
 }else{

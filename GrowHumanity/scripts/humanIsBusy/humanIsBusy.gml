@@ -1,0 +1,1 @@
+return state != HUMAN_STATE.wandering;
