@@ -2,4 +2,6 @@
 // You can write your code in this editor
 event_inherited();
 
-need = "water";
+fadeSpawnInit();
+
+need = "place holder need"; // must be overwritten by children

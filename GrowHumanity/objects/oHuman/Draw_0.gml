@@ -9,18 +9,21 @@ draw_set_alpha(1);
 draw_text(x,y+30,concat(id," ",state," ",path_goal));
 
 draw_set_alpha(image_alpha);
-if(oPersistent.selected_human == id){
-	draw_set_color(c_aqua);
-}else{
-	draw_set_color(c_yellow);	
+
+if(!humanIsBusy()){
+	if(oPersistent.selected_human == id){
+		draw_set_color(c_aqua);
+	}else{
+		draw_set_color(c_yellow);	
+	}
+	draw_circle(x,y,body_radius + 2+stimulation*stimulation_max_width,false);
 }
-draw_circle(x,y,body_radius + 2+stimulation*stimulation_max_width,false);
+
 draw_set_color(make_color_rgb(
 	128 + stimulation_max*127,
 	128 + stimulation_max*127,
 	128 + stimulation_max*127
 ));
-
 draw_circle(x,y,10,false);
 
 draw_set_alpha(1);

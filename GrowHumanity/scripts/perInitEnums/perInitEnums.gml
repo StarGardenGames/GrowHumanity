@@ -42,3 +42,8 @@ enum PATH_GOAL{
 	inform,
 	need
 };
+
+enum VIEW_MODE{
+	manual,
+	auto
+}

@@ -1,7 +1,8 @@
 events = [
 	eventInitialHuman,
 	eventMoreHumans,
-	eventWater
+	eventWater,
+	eventFood
 ];
 
 event_index = 0;

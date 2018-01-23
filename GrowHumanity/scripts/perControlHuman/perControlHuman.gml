@@ -20,7 +20,7 @@ if(selected_human != noone){
 		//initial stimulation
 		if(mouse_check_button_pressed(mb_left)){
 			selected_human.stimulation = selected_human.stimulation_max;
-			selected_human.has_been_stimulated = true;
+			selected_human.meta_has_been_stimulated = true;
 		
 			if(selected_human.stimulation_max != 0){
 				var angle = point_direction(selected_human.x, selected_human.y, mouse_x, mouse_y);

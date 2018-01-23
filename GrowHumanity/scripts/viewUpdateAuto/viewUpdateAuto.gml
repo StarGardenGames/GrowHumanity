@@ -25,16 +25,15 @@ var use_width =  ((max_x - min_x) / ratio) > (max_y - min_y);
 
 var target_width, target_height;
 if(use_width){
-	target_width = clamp((max_x - min_x) * 1.5, 960, 1920);
+	target_width = clamp((max_x - min_x) * 2, 480, 1920);
 	target_height = target_width / ratio;
 }else{
-	target_height = clamp((max_y - min_y) * 1.5, 540, 1080);
+	target_height = clamp((max_y - min_y) * 2, 270, 1080);
 	target_width = target_height * ratio;
 }
 
 var target_x = (sum_x / n) - target_width / 2;
 var target_y = (sum_y / n) - target_height/ 2;
-
 
 camera_set_view_pos(
 	view_camera[0],

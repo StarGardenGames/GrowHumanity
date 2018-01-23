@@ -1,28 +1,18 @@
 {
-    "id": "3204b5c4-4adf-467a-a94a-cb9c4b192978",
+    "id": "16823e3f-9834-43c6-9741-3c4f3ac1f685",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oWater",
+    "name": "oFood",
     "eventList": [
         {
-            "id": "f658579e-62e8-42e0-849d-1353e07da182",
+            "id": "498f2c11-c859-4f66-a6cc-6e96cf2a69a9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "3204b5c4-4adf-467a-a94a-cb9c4b192978"
-        },
-        {
-            "id": "df0eb54c-c063-46ad-bdfa-f7bac48e4238",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "3204b5c4-4adf-467a-a94a-cb9c4b192978"
+            "m_owner": "16823e3f-9834-43c6-9741-3c4f3ac1f685"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "31629105-40f5-4448-b69a-60065c43f0f4",
+    "spriteId": "5fc41816-825d-46c6-83bd-d64c4c318922",
     "visible": true
 }

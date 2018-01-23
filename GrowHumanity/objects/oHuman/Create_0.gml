@@ -35,8 +35,6 @@ stimulation_decel = .02;
 stimulation_max_width = 5;
 stimulation_angle = 0;
 
-has_been_stimulated = false;
-
 memory = ds_map_create();
 
 lead_informant = noone;
@@ -50,6 +48,8 @@ path_goal = noone;
 body_radius = 10;
 conversational_space = 48;
 
+meta_has_been_stimulated = false;
+meta_num_water_quenchings = 0;
 
 
 
