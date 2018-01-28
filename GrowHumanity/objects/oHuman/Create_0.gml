@@ -51,5 +51,7 @@ conversational_space = 48;
 meta_has_been_stimulated = false;
 meta_num_water_quenchings = 0;
 
+name = humanGetName();
+
 
 

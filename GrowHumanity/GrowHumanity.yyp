@@ -823,6 +823,14 @@
             }
         },
         {
+            "Key": "f6fc8f02-36fb-44a4-af36-6dbf71e47168",
+            "Value": {
+                "id": "a8b1b06d-74b8-460d-b357-8cb7883d2401",
+                "resourcePath": "scripts\\humanGetName\\humanGetName.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f70de73a-593a-4bd4-8d03-df7419f142b6",
             "Value": {
                 "id": "223d431a-7f07-4798-bef3-1568585849b1",
@@ -882,6 +890,7 @@
         "cfcc5f32-0a30-40db-b818-ebddcfc3ae58",
         "228c747d-b07f-4b48-9b40-ae03ae2ddb8a",
         "8986e6bd-82f2-426d-aed9-86a08be8eeb3",
+        "f6fc8f02-36fb-44a4-af36-6dbf71e47168",
         "96427ecc-9868-4f8e-9b67-de1e6fcb3f0b",
         "4b4c9284-4357-4162-90b3-227475879afa",
         "1e6cf12e-7242-4835-b84a-c6d910138b71",

@@ -19,7 +19,8 @@
         "4f1ad96d-dd1c-4cf2-b30e-9d7e1be256d3",
         "cfcc5f32-0a30-40db-b818-ebddcfc3ae58",
         "228c747d-b07f-4b48-9b40-ae03ae2ddb8a",
-        "8986e6bd-82f2-426d-aed9-86a08be8eeb3"
+        "8986e6bd-82f2-426d-aed9-86a08be8eeb3",
+        "f6fc8f02-36fb-44a4-af36-6dbf71e47168"
     ],
     "filterType": "GMScript",
     "folderName": "Human",
