@@ -1,8 +1,8 @@
 {
-    "id": "cfcc5f32-0a30-40db-b818-ebddcfc3ae58",
+    "id": "b61afbdb-c169-44d7-a434-20adbe5a74d3",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "humanApplyMovement",
+    "name": "humanAddRelationExperience",
     "IsCompatibility": false,
     "IsDnD": false
 }

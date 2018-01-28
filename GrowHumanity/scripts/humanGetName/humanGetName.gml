@@ -1,6 +1,6 @@
 var str="";
 var vowel = choose(false, true);
-
+var name_exists = false;
 repeat(irandom_range(3,5)){
 	var char;
 	if(vowel){
@@ -15,7 +15,7 @@ repeat(irandom_range(3,5)){
 	}
 	vowel = !vowel;
 }
+name_exists = false;
 
-string_upper(string_char_at(str,0));
 
 return str;

@@ -4,8 +4,8 @@ fadeSpawnUpdate();
 
 humanUpdateThought();
 
-humanUpdateState();
+humanUpdateRelationships();
 
-humanApplyMovement();
+humanUpdateState();
 
 stimulation = max(stimulation - stimulation_decel, 0);

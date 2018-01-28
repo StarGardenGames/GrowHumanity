@@ -46,12 +46,20 @@ path_goal_object = noone;
 path_goal = noone;
 
 body_radius = 10;
-conversational_space = 48;
+
 
 meta_has_been_stimulated = false;
 meta_num_water_quenchings = 0;
 
 name = humanGetName();
+
+conversational_space = 48;
+familiar_space = 128;
+
+familiar_rate = 1 / (60*room_speed);
+forget_rate = -1 / (20*room_speed);
+
+
 
 
 

@@ -25,5 +25,5 @@ draw_set_color(make_color_rgb(
 	128 + stimulation_max*127
 ));
 draw_circle(x,y,10,false);
-
+draw_circle(x,y,familiar_space,true);
 draw_set_alpha(1);
