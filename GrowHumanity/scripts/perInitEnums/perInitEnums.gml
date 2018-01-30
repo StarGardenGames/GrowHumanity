@@ -26,9 +26,10 @@ enum EMOTION_PHASE{
 
 enum HUMAN_STATE{
 	wandering,
-	pathing,
 	informing,
-	listening
+	listening,
+	mating,
+	deprived
 };
 
 enum EDGE_ROW{
@@ -36,11 +37,6 @@ enum EDGE_ROW{
 	b,
 	weight,
 	total
-};
-
-enum PATH_GOAL{
-	inform,
-	need
 };
 
 enum VIEW_MODE{

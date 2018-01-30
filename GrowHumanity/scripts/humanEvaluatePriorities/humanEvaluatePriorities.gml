@@ -9,8 +9,7 @@ for(var i = 0; i < ds_list_size(oPersistent.needs); i++){
 		time_since_previous = oPersistent.game_time - memory[? concat("previous_",need_name)];
 	}
 	if(can_satisfy && time_since_previous > cur_need[? "refresh_steps"]){
-		humanStartPathToObject(memory[? need_name], PATH_GOAL.need);
-		humanSetThoughtWithSubject(need_name, true);
+		humanEnterState(HUMAN_STATE.deprived, need_name);
 		all_needs_met = false;
 	}
 }

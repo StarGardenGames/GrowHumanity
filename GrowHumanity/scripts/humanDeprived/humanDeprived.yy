@@ -1,8 +1,8 @@
 {
-    "id": "f1fb528c-8a56-4dbd-ad31-decaca6ff366",
+    "id": "5cb9046c-0e71-434f-8480-ee0ac3fc5c15",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "humanAchievePathGoal",
+    "name": "humanDeprived",
     "IsCompatibility": false,
     "IsDnD": false
 }

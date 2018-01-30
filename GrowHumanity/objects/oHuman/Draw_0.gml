@@ -7,6 +7,7 @@ draw_set_alpha(thought_alpha);
 draw_text(x,y-30,thought);
 draw_set_alpha(1);
 draw_text(x,y+30,name);
+draw_text(x,y+45,state_map[? "name"]);
 
 draw_set_alpha(image_alpha);
 

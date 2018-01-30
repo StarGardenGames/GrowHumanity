@@ -1,12 +1,14 @@
-var new_state = argument0;
+var new_state = argument[0];
+var args;
+if(argument_count == 2){
+	args = argument[1];
+}else{
+	args = [];	
+}
 
 state = new_state;
+state_map = oPersistent.human_state_maps[state];
 
-switch(new_state){
-case HUMAN_STATE.informing:
-	humanEmitEmotion(EMOTION.informing);
-	break;
-case HUMAN_STATE.wandering:
-	state_timer = 120;
-	break;
+if(state_map[? "init_script"] != undefined){
+	script_execute(state_map[? "init_script"], args);
 }

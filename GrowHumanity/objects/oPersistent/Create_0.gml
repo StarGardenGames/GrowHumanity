@@ -1,5 +1,5 @@
 /// @description Load phrases
-
+randomize();
 depth = -1;
 
 perInitEnums();
@@ -21,3 +21,5 @@ depth_order = [
 ];
 
 game_time = 0;
+
+humanMakeStateMaps();

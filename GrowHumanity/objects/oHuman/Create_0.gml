@@ -3,8 +3,8 @@ event_inherited();
 
 fadeSpawnInit();
 
-state = HUMAN_STATE.wandering;
 state_timer = 0; 
+humanEnterState(HUMAN_STATE.wandering);
 
 my_emotion = noone;
 
@@ -42,8 +42,9 @@ informant_depth = 0;
 info_key_to_udpate = "";
 informed_set = -1;
 
-path_goal_object = noone;
 path_goal = noone;
+pathing = false;
+path_complete = true;
 
 body_radius = 10;
 
@@ -55,6 +56,9 @@ name = humanGetName();
 
 conversational_space = 48;
 familiar_space = 128;
+
+human_dx = 0;
+human_dy = 0;
 
 familiar_rate = 1 / (60*room_speed);
 forget_rate = -1 / (20*room_speed);
