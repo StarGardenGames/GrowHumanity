@@ -20,11 +20,19 @@ if(!humanIsBusy()){
 	draw_circle(x,y,body_radius + 2+stimulation*stimulation_max_width,false);
 }
 
-draw_set_color(make_color_rgb(
-	128 + stimulation_max*127,
-	128 + stimulation_max*127,
-	128 + stimulation_max*127
-));
+draw_set_color(makeColorGray(128 + stimulation_max*127));
 draw_circle(x,y,10,false);
 draw_circle(x,y,familiar_space,true);
 draw_set_alpha(1);
+
+for(var i = 0; i < num_relations; i++){
+	var r_id = relations[# i, GRID.key];
+	if(r_id >= id) continue;
+	draw_set_color(make_color_hsv(200*relations[# i, GRID.value],255,255));
+	draw_line(x, y, r_id.x, r_id.y);
+}
+
+draw_set_color(c_green);
+for(var i = 0; i < ds_list_size(arrow_x); i++){
+	draw_arrow(x, y, x+arrow_x[| i]*10, y+arrow_y[| i]*10, 4);
+}

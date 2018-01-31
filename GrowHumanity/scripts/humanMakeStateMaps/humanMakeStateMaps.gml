@@ -8,7 +8,7 @@ human_state_maps[HUMAN_STATE.listening] = humanMakeStateMap(
 	"Listening", undefined, humanListen
 );
 human_state_maps[HUMAN_STATE.mating] = humanMakeStateMap(
-	"Mating", undefined, undefined
+	"Mating", humanMatingInit, humanMatingUpdate
 );
 human_state_maps[HUMAN_STATE.deprived] = humanMakeStateMap(
 	"Deprived", humanDeprivedInit, humanDeprived

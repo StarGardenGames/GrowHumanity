@@ -42,4 +42,9 @@ enum EDGE_ROW{
 enum VIEW_MODE{
 	manual,
 	auto
+};
+
+enum GRID{
+	key,
+	value
 }

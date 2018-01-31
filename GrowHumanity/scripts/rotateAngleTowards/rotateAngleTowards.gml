@@ -6,17 +6,13 @@ var sp = argument2;
 current = (current + 360)%360;
 target = (target + 360)%360;
 
-//if we can reach the target just go there
-var canReachTargetThisStep = 
-	abs(current - target) < sp || abs(current - target) > (360 - sp)
-if(canReachTargetThisStep){
-	current = target;
+//from how far current would need to rotate ( and what direction)
+var delta = angleDelta(current, target);
 
-//otherwise rotate in the appropriate direction
+if(abs(delta) < sp){
+	current = target;
 }else{
-	var rotate_ccw = ((target - current) > 0) != (abs(target - current) > 180)
-	current += lerp(-1, 1, rotate_ccw) * sp;
-	current = (current+360)%360;
+	current += sign(delta) * sp;
 }
 
 return current;

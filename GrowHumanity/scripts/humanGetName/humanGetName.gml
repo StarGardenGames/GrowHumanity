@@ -6,7 +6,7 @@ repeat(irandom_range(3,5)){
 	if(vowel){
 		char = choose("a", "e", "i", "o", "u");
 	}else{
-		char = choose("b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "z");
+		char = choose("b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "z");
 	}
 	if(string_length(str) == 0){
 		str += string_upper(char);

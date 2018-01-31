@@ -56,6 +56,7 @@ name = humanGetName();
 
 conversational_space = 48;
 familiar_space = 128;
+personal_space = 32;
 
 human_dx = 0;
 human_dy = 0;
@@ -63,7 +64,13 @@ human_dy = 0;
 familiar_rate = 1 / (60*room_speed);
 forget_rate = -1 / (20*room_speed);
 
+relations = ds_grid_create(100,2);
+num_relations = 0;
+for(var i = 0; i < ds_grid_height(relations); i++){
+	relations[# i, GRID.value] = -1;	
+}
 
-
+arrow_x = ds_list_create();
+arrow_y = ds_list_create();
 
 
