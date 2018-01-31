@@ -30,24 +30,23 @@ target_angle += dtarget_angle;
 angle = rotateAngleTowards(angle, target_angle, rot_speed);
 
 //update speeds
-ds_list_add(arrow_x, lengthdir_x(.25*sp_max, angle));
-ds_list_add(arrow_y, lengthdir_y(.25*sp_max, angle));
 human_dx += lengthdir_x(.25*sp_max, angle);
 human_dy += lengthdir_y(.25*sp_max, angle);
 
 //compute pull from relationships
-/*
 for(var i = 0; i < min(5, num_relations); i++){	
 	var r_id = relations[# i, GRID.key];
 	var dir = point_direction(x, y, r_id.x, r_id.y);
-	var dist = point_direction(x, y, r_id.x, r_id.y);
-	var sp = relations[# i, GRID.value]*sp_max*.07;
-	if(dist < (personal_space*2)) sp = 0;
-	ds_list_add(arrow_x, lengthdir_x(sp, dir));
-	ds_list_add(arrow_y, lengthdir_y(sp, dir));
+	var dist = point_distance(x, y, r_id.x, r_id.y);
+	var sp;
+	if(dist < (personal_space*2)){
+		sp = -sp_max * (1 - (dist / (personal_space*2)));
+	}else{
+		sp = relations[# i, GRID.value]*sp_max*.1;
+	}
 	human_dx += lengthdir_x(sp, dir);
 	human_dy += lengthdir_y(sp, dir);
-}*/
+}
 
 if(state_timer < 0){
 	humanEvaluatePriorities();	

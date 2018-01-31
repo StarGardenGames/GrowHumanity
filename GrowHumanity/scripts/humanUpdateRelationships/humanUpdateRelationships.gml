@@ -2,8 +2,8 @@ var xx = x;
 var yy = y;
 var main_id = id;
 with(oHuman){
-	if(ds_grid_value_exists(main_id.relations, 0, GRID.key, num_relations, GRID.key+1, id)) continue;
 	if(id == main_id) continue;
+	if(ds_grid_value_exists(main_id.relations, 0, GRID.key, main_id.num_relations, GRID.key, id)) continue;
 	var dist = point_distance(x, y, xx, yy);
 	if(dist < familiar_space){
 		main_id.relations[# main_id.num_relations, GRID.key] = id;
@@ -19,7 +19,6 @@ for(var i = 0; i < num_relations; i++){
 	if(dist < familiar_space){
 		cur_strength += familiar_rate;
 	}else{
-		print(cur_strength,forget_rate);
 		cur_strength += forget_rate;
 	}	
 	relations[# i, GRID.value] = clamp(cur_strength, 0, 1);
