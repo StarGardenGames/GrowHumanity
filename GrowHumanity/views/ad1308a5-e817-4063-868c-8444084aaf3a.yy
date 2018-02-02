@@ -10,10 +10,10 @@
         "2e43628c-72e2-4e28-b28b-1eeee4928b9f",
         "b3ad1c6e-3e45-40be-b930-23eb678572ef",
         "20abdd83-330b-49e7-874f-5df10f1a6923",
+        "ff1eba39-4211-45cd-96a7-dc8fa2410a67",
         "32e76a1b-7a42-42f4-8025-0dfac29233e8",
         "6faad2f1-e4cd-4b33-9e58-cc5d1bba728d",
-        "f75dc178-720c-4e07-8083-4bace141aa14",
-        "ff1eba39-4211-45cd-96a7-dc8fa2410a67"
+        "f75dc178-720c-4e07-8083-4bace141aa14"
     ],
     "filterType": "GMScript",
     "folderName": "APLib",

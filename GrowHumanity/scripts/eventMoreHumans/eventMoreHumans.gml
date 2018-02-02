@@ -18,6 +18,7 @@ if(stimulated && dist > 200){
 	);
 	human1.stimulation_max = .5;
 	ds_list_add(oViewControl.viewed_instances, human1);
+	human1.birth_time -= human1.adult_age;
 	
 	var spawn_dir2 = spawn_dir1 + 60 + random(120);
 	var human2 = instance_create_depth(
@@ -26,6 +27,7 @@ if(stimulated && dist > 200){
 		0, oHuman
 	);
 	human2.stimulation_max = .5;
+	human2.birth_time -= human2.adult_age;
 	ds_list_add(oViewControl.viewed_instances, human2);
 	
 	var spawn_dir3 = spawn_dir1 + 60 + random(120);
@@ -35,6 +37,7 @@ if(stimulated && dist > 200){
 		0, oHuman
 	);
 	human3.stimulation_max = 0;
+	human3.birth_time -= human3.adult_age;
 	ds_list_add(oViewControl.viewed_instances, human3);
 	
 	return true;

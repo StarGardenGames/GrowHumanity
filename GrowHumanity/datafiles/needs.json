@@ -8,6 +8,10 @@
 		"refresh_steps": 1800
 	},
 	{
+		"name": "mating",
+		"refresh_steps": 3600
+	},
+	{
 		"name": "shelter",
 		"refresh_steps": 2500
 	}

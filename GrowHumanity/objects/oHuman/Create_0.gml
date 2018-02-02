@@ -3,7 +3,13 @@ event_inherited();
 
 fadeSpawnInit();
 
+birth_time = oPersistent.game_time;
+adult_age = 60*room_speed;
+infant_body_radius = 3;
+adult_body_radius = 10;
+
 state_timer = 0; 
+sub_state = 0;
 humanEnterState(HUMAN_STATE.wandering);
 
 my_emotion = noone;
@@ -45,9 +51,7 @@ informed_set = -1;
 path_goal = noone;
 pathing = false;
 path_complete = true;
-
-body_radius = 10;
-
+path_sp = sp_max;
 
 meta_has_been_stimulated = false;
 meta_num_water_quenchings = 0;
@@ -57,18 +61,26 @@ name = humanGetName();
 conversational_space = 48;
 familiar_space = 128;
 personal_space = 32;
+romantic_space = 5;
 
 human_dx = 0;
 human_dy = 0;
 
-familiar_rate = 1 / (60*room_speed);
-forget_rate = -1 / (20*room_speed);
+best_friend_rate = 1 / (10*room_speed);
+best_friend_relation_thresh = .5;
+
+friend_rate = 1 / (20*room_speed);
+friend_relation_thresh = .25;
+
+familiar_rate = 1 / (40*room_speed);
+forget_rate = -1 / (120*room_speed);
 
 relations = ds_grid_create(100,2);
 num_relations = 0;
 for(var i = 0; i < ds_grid_height(relations); i++){
 	relations[# i, GRID.value] = -1;	
 }
+relation_strength_cap = 0;
 
 arrow_x = ds_list_create();
 arrow_y = ds_list_create();
